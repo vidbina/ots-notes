@@ -6,10 +6,10 @@ consideration while evaluating the merrits of different tools. The following
 list enumerates some design goals to be accomplished through the GUI solution.
 
  - facilitate the modification of a graph utilizing:
-   - click or tap actions to create objects at the origin specified by the pointer
-   - drag-and-drop functionality to move existing resources (vertices and edges)
+    - click or tap actions to create objects at the origin specified by the pointer
+    - drag-and-drop functionality to move existing resources (vertices and edges)
  - facilitate the information exchange between the simulation suite and the front-end GUI
- - represent visible components in a simulation, at their proper places and in their proper states within 1ms after the simulation suite has processed these
+ - represent visible components in a simulation, at the appropriate places and in their proper states within 1ms after the computation by the simulator
 
 In order to provide the proper context the manner in which infrastructure and 
 actor inputs are represented within the simulation suite are briefly discussed.
@@ -19,8 +19,8 @@ provide the reader with some indication of the challenges involved with each
 platform. Each platform may have different tools at its disposal. For this very
 reason, the tools will be discussed per platform.
 
-<a name="inputs">
 # Inputs
+## Actor
 ## Infrastructure
 The _ots-core_ project as of revision 878 (the revision examined at the time of
 writing) facilitates the input of infrastructure through XML representation.
@@ -52,6 +52,6 @@ writing) facilitates the input of infrastructure through XML representation.
 </NETWORK>
 ```
 
-<a name="platforms">
 # Platforms
 ## Graph Representation & Modification
+## Simulation Rendering

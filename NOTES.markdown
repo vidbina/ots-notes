@@ -1,0 +1,1 @@
+ - Infrastructure is loaded in `ots-core/src/main/java/org/opentrafficsim/core/network/factory/TestXMLModel.java`
